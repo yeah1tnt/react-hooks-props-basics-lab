@@ -4,7 +4,7 @@ import Links from "./Links.js"
 
 
 function About(props) {
-  if(!props.bio || props.bio.trim()=== "") {
+  if(!props.bio) {
     return null;
   }
   return (
